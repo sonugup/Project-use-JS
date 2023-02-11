@@ -1,9 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     display: flex;
     flex-direction: column;
     background-image: url('img.jpeg');
@@ -15,23 +16,25 @@ body{
     background-size: cover;
     font-family: sans-serif;
 }
-h2{
+
+h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     font-size: 24px;
     text-align: center;
 }
 
-.clock{
+.clock {
     display: flex;
 
 }
 
-.clock div{
+.clock div {
     margin: 5px;
 
 }
-.clock span{
+
+.clock span {
     width: 100px;
     height: 80px;
     background: rgb(205, 90, 195);
@@ -44,7 +47,7 @@ h2{
     text-shadow: 2px 2px 4px rgba(0, 0, 1, 0.3);
 }
 
-.clock .text{
+.clock .text {
     height: 30px;
     font-size: 10px;
     text-transform: uppercase;
@@ -53,11 +56,11 @@ h2{
     opacity: 0.8;
 }
 
-.clock #ampm{
+.clock #ampm {
     bottom: 0;
     width: 60px;
     height: 30px;
     font-size: 20px;
     background: green;
-    margin-top:80px ;
+    margin-top: 80px;
 }
